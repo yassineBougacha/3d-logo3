@@ -1,0 +1,73 @@
+body{
+  text-align: center;
+}
+h1::first-letter{
+font-family: lucida calligraphy;
+font-size: 3cm;
+color :red;
+text-shadow: 4px 8px 9px cyan;
+
+}
+q::before{
+  
+  content: "<<";
+  color:blue;
+}
+q::after{
+
+  content: ">>";
+  color:red;
+}
+
+div{
+display: block;
+position: absolute;
+width: 10px;
+height: 10px;
+left: calc(50% -1em);
+border-radius: 1.3em;
+transform-origin: 1.3em 2em;
+animation: rotate;
+animation-iteration-count: infinite;
+animation-duration: 2s;
+
+
+
+}
+@keyframes rotate {
+0%{transform: rotate(0deg);}
+100%{transform: rotate(360deg);}
+
+}
+.a1{
+  animation-delay: 0.1s;
+  background-color: black;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+
+}
+.a2{
+  animation-delay: 0.3s;
+  background-color: black;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+
+}
+.a3{
+  animation-delay: 0.5s;
+  background-color: black;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  
+}
+.a4{
+  animation-delay: 0.7s;
+  background-color: black;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  
+}
